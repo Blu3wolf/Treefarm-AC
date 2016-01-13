@@ -1,11 +1,11 @@
 {
   "name": "Treefarm-AC",
-  "version": "0.2.1",
+  "version": "0.2.2",
   "title": "Treefarm-AC",
-  "author": "drs",
+  "author": "drs", "Blu3wolf",
   "homepage": "_",
-  "dependencies": ["base >= 0.12.0","Treefarm-Lite >= 0.2.0"],
+  "dependencies": ["base >= 0.12.11","Treefarm-Lite >= 0.2.1"],
   "description": "This mod adds optional content to the treefarm like coke production, fertilizer production and biomass.
 
-Published under the CC BY-NC-ND 4.0 License"
+Published under the GPLv2"
 }
