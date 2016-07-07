@@ -249,8 +249,10 @@ data:extend(
       priority = "high",
       width = 32,
       height = 32,
+      frame_count = 1,
       shift = {0, 0}
     },
+	vehicle_impact_sound =  { filename = "__base__/sound/car-metal-impact.ogg", volume = 0.65 },
     attack_parameters =
 		{
         type = "projectile",
@@ -271,7 +273,8 @@ data:extend(
 			},
 			range = 17,
 			sound = make_heavy_gunshot_sounds()
-		}
+		},
+    call_for_help_radius = 40
 	}
 }
 )
